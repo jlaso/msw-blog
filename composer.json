@@ -2,15 +2,15 @@
     "name": "jlaso/msw-blog",
     "version": "1.0.0",
     "description": "A simple blog for MySimpleWeb",
-    "keywords": ["blog", "mysimpleweb", "my simple web", "my-simple-web"],
+    "keywords": ["blog", "msw", "mysimpleweb", "my simple web", "my-simple-web"],
     "homepage": "https://github.com/jlaso/msw-blog",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Patrick JL Laso",
-            "email": "wld1373@gmail.com",
-            "homepage": "http://www.patricklaso.com"
+            "name": "Joseluis Laso",
+            "email": "jlaso@joseluislaso.es",
+            "homepage": "http://www.joseluislaso.es"
         }
     ],
     "require": {
