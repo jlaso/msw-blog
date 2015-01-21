@@ -14,7 +14,7 @@ class BlogHomeController extends Controller
     public function homeAction($page = 1)
     {
         $app = \Slim\Slim::getInstance();
-        $paginator    = new Paginable('Entity\\Article', array('recPerPage' => 2));
+        $paginator    = new Paginable('JLaso\\Blog\\models\\Entity\\Post', array('recPerPage' => 2));
         $paginator->setBaseRouteAndParams('articles.index');
         if (($page < 1) || ($page > $paginator->getPages())) {
             $app->notFound();
